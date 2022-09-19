@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+.nav {
+  display: inline;
+    backdrop-filter: blur(18px);
+    position: relative;
+    font-family: Helvetica;
+    opacity: 0.8px;
+  }
+  
+  .nav > .header {
+    display: inline;
+  }
+  
+  .nav > .header > .title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .btn {
+    display: none;
+  }
+  
+  .nav > .links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    
+  }
+  
+  .nav > .links > .act {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    margin-right: 50px;
+  }
+  .nav > .links > .active {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }
+  .nav > .links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .nav > #check {
+    display: none;
+  }

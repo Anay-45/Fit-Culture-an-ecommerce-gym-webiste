@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.card{
+    display: inline-block;
+    border-radius:10px;
+    backdrop-filter: blur(50px);
+    padding:20px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+}
+.toprow{
+    color:#fff;
+}
+.toprow p{
+    padding-bottom:20px;
+}
+.carddetails{
+    position:relative;
+    display:flex;
+    
+    padding-bottom:20px;
+}
+.carddetails input{
+    height:50px;
+    width:100%;
+    font-size:18px;
+    caret-color:white;
+    color:black;
+    padding:0px 20px;
+    padding-left:50px;
+    box-sizing:border-box;
+    border-radius:10px;
+    outline:none;
+    border:none;
+}
+.carddetails i{
+    position:absolute;
+    left:10px;
+    top:16px;
+    color:#ffe4be;
+    font-size:18px;
+}
+.carddetails span{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color:#fff;
+    border-radius:50%;
+    color:#ffe4be;
+    font-size:10px;
+    color:#000;
+    right:10px;
+    top:15px;
+    opacity:0.4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.carddetails span:hover{
+    opacity:1;
+}
+.forget{
+    color:#fff;
+    margin-bottom:13px;
+}
+.signin{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+    height:60px;
+    width:100%;
+    font-size:17px;
+    
+    border-radius:10px;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.5s;
+    border:none;
+}
+.signin:hover{
+    background-color:#b7a486;
+    
+}
+.signup{
+    margin-top:30px;
+    color:#ccc;
+}
+.signup .link{
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.5s;
+}
+.signup .link:hover{
+    color:#f4d5a8;
+}
+
+.warning{
+    border:2px solid red !important;
+}
