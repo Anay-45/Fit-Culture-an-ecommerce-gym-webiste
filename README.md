@@ -4,5 +4,9 @@ A portal was being created for gym freaks to buy gym products and other gym equi
 Websitelink :- 
 heroku
 https://fitculture.herokuapp.com/
+
+
+
+
 AWS
 http://ec2-52-202-13-242.compute-1.amazonaws.com:49160/#/Home
