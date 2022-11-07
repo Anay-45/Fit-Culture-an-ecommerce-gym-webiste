@@ -9,4 +9,4 @@ https://fitculture.herokuapp.com/
 
 
 AWS
-http://ec2-52-202-13-242.compute-1.amazonaws.com:49160/#/Home
+http://ec2-54-161-200-29.compute-1.amazonaws.com:49160/#/Home
